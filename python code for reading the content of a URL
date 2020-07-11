@@ -1,0 +1,9 @@
+'''simple example to learn how to read an URL by using python
+-you need to install urllib Library
+-You may facing some problems due to the different versions
+for more information watch this>>> https://www.youtube.com/watch?v=5GzVNi0oTxQ#action=share '''
+
+import urllib.request
+
+x = urllib.request.urlopen('https://www.google.com')
+print(x.read())
